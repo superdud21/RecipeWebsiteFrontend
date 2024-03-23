@@ -16,13 +16,13 @@ export function TopNavigation() {
                 <Image src="/youtube.png" alt="youtube" width={24} height={24}/>
             </div>
             <div className={styles.logo}>
-                Dyal Recipe Book
+                Recipe Blog
             </div>
             <div className={styles.links}>
                 <ThemeToggle />
-                <Link href="/">Home</Link>
-                <Link href="/about">About</Link>
-                <Link href="/login">Login</Link>
+                <Link href="/" className={styles.link}>Home</Link>
+                <Link href="/about" className={styles.link}>About</Link>
+                <Link href="/contact">Contact</Link>
                 <AuthLinks />
             </div>
         </div>
